@@ -6,7 +6,7 @@
 
     </head>
     <body>
-        <header>
+        <header class="sw">
             <app-nc 
             texto="Soy un parrafo"        
             ></app-nc>
@@ -17,20 +17,27 @@
             <div> <app-lista 
                 texto="Nombre"    
 
-                url="https://pokeapi.co/api/v2/pokemon"
+                url="https://swapi.dev/api/people/"
                 campo="name"></app-lista> 
             </div>
                 
             <div>
                 <app-lista 
-                texto="Link"    
+                texto="Altura"    
 
-                url="https://pokeapi.co/api/v2/pokemon"
-                campo="url">
+                url="https://swapi.dev/api/people/"
+                campo="height">
                 </app-lista> 
             </div>
 
-            <div>3</div>
+            <div>
+                <app-lista 
+                texto="Género"    
+
+                url="https://swapi.dev/api/people/"
+                campo="gender">
+                </app-lista> 
+            </div>
 
         </div>
     </body>

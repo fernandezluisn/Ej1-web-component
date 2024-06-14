@@ -121,7 +121,7 @@ async function generateCards() {
     const container = document.getElementById('muestrario');
 
     try {
-        const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=20');
+        const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=40');
         const data = await response.json();
 
         for (const pokemon of data.results) {
