@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <title>Web components</title>
+        <script src="./main.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <app-nc 
+            texto="Soy un parrafo"        
+            ></app-nc>
+        </header>
+        
+        
+        <div class="tresColumnas">
+            <div> <app-lista 
+                texto="Nombre"    
+
+                url="https://pokeapi.co/api/v2/pokemon"
+                campo="name"></app-lista> 
+            </div>
+                
+            <div>
+                <app-lista 
+                texto="Link"    
+
+                url="https://pokeapi.co/api/v2/pokemon"
+                campo="url">
+                </app-lista> 
+            </div>
+
+            <div>3</div>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+body{
+    background-color: #777;
+}
+
+header{
+    text-align: center;
+    background-color: #30a;
+}
+
+.tresColumnas{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#shadow-root div p{
+    color: #0f0;
+}
