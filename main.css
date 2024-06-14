@@ -16,3 +16,10 @@ header{
 #shadow-root div p{
     color: #0f0;
 }
+
+#muestrario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
